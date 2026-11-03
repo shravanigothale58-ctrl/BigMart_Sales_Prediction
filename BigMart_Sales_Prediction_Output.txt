@@ -1,0 +1,19 @@
+First five records:
+  Item_Identifier  Item_Weight  ...        Outlet_Type  Item_Outlet_Sales
+0           FDA15         9.30  ...  Supermarket Type1          3735.1380
+1           DRC01         5.92  ...  Supermarket Type2           443.4228
+2           FDN15        17.50  ...  Supermarket Type1          2097.2700
+3           FDX07        19.20  ...      Grocery Store           732.3800
+4           NCD19         8.93  ...  Supermarket Type1           994.7052
+
+[5 rows x 12 columns]
+
+Dataset shape (rows, columns):
+(8523, 12)
+
+Model Evaluation
+Mean Absolute Error (MAE): 991.47
+R-squared score: 0.331
+
+New Item MRP: 150
+Predicted Item Outlet Sales: 2328.2

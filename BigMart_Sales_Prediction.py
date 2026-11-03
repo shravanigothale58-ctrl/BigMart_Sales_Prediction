@@ -67,5 +67,7 @@ plt.xlabel("Item MRP")
 plt.ylabel("Item Outlet Sales")
 plt.legend()
 plt.grid(True)
+# Save the chart so it is available when the script runs without a display.
+plt.savefig("BigMart_Sales_Prediction_Output.png", bbox_inches="tight")
 # Show the graph.
 plt.show()
